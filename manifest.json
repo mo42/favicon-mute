@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Favicon Mute",
+  "version": "1.0",
+  "description": "Browser extension that prevents web apps from changing the favicon to display notifications",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
