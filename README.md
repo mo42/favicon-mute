@@ -1,7 +1,9 @@
-# FaviconMute
+# ![image](icon_64.png) FaviconMute
 
 FaviconMute a simple browser extension that prevents web apps from changing the
 favicon and title to display notifications. No more distracting notifications.
+
+Firefox Add-Ons: [Favicon-Mute](https://addons.mozilla.org/en-US/firefox/addon/favicon-mute/)
 
 ## How It Works
 
